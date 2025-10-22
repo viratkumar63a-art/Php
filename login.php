@@ -5,7 +5,6 @@
     $mobile = $_POST['mob'];
     $pass = $_POST['pass'];
     $role = $_POST['role'];
-    // connect to db 
 
     $check = mysqli_query($connect, "select * from user where mobile='$mobile' and password='$pass' and role='$role' ");
 

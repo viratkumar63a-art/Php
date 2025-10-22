@@ -19,6 +19,7 @@
                     alert("Voting successfull!");
                     window.location = "../routes/dashboard.php";
                 </script>';
+                
     }
     else{
         echo '<script>
